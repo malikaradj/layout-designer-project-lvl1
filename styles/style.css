@@ -87,3 +87,53 @@ a {
 	border-radius: 10px;
 }
 
+#benefits {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	align-items: center;
+	width: 1000px;
+	height: 300px;
+
+}
+
+.benefits div {
+	width: 30%;
+}
+
+#about {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-color: #f7f7f7;
+	height: 300px;
+	
+}
+
+.section-content {
+	display: flex;
+	justify-content: space-around;
+	width: 1000px;
+
+}
+
+.section-text {
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 500px;
+
+}
+.section-pic {
+	width: 30%;
+	height: 30%;
+	padding-top: 20px;
+}
+
+#rest-places {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	height: 300px;
+}
