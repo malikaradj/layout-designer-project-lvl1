@@ -87,6 +87,10 @@ a {
 	border-radius: 10px;
 }
 
+.banner-button a {
+	color: #FFFFFF
+}
+
 #benefits {
 	display: flex;
 	justify-content: space-around;
@@ -137,3 +141,70 @@ a {
 	margin: 0;
 	height: 300px;
 }
+
+#request-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #f7f7f7;
+	height: 650px;
+}
+
+#request-section h3 {
+	font-size: 30px;
+}
+
+
+
+.request-fieldset {
+	color: #30d5c8;
+	border-color: #30d5c8;
+	width: 400px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.request-fieldset p {
+	color: #000000;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.field-style {
+	
+	width: 130px;
+	height: 30px;
+	border-radius: 8px;
+	border: 1px solid #d7d7d7;
+	background-color: #FFFFFF;
+	margin-right: 50px;
+}
+
+.textarea-style {
+	width: 170px;
+	height: 25px;
+	margin-right: 5px;
+	border-radius: 8px;
+	border: 1px solid #d7d7d7;
+}
+
+.submit {
+	width: 150px;
+	height: 40px;
+	background-color: #FFFFFF;
+	color: #30d5c8;
+	font-weight: bold;
+	font-size: 18px;
+	border: 1px solid #30d5c8;
+	border-radius: 8px;
+	
+}
+
+
+
+

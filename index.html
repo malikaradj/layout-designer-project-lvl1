@@ -29,7 +29,7 @@
 				<h1>ЖК «Лунное море»</h1>
 				<p>Место, откуда не хочется улетать</p>
 			</div>
-			<button class="banner-button">Забронировать</button>
+			<button class="banner-button"><a href="#request-section">Забронировать</a></button>
 		</div>
 
 		<section id="benefits">
@@ -66,6 +66,46 @@
 				</div>
 			</div>
 		</section>
+		<div id="request-section">
+			<h3>Оставьте заявку сегодня!</h3>
+			<form action="" method="post" class="form-flex">
+				<fieldset class="request-fieldset">
+					<legend>Параметры квартиры</legend>
+					<div class="flex-container">
+						<p>Количество комнат:</p>
+						<select class="field-style">
+    						<option selected value="1">1</option>
+    						<option value="2">2</option>
+    							<option value="3">3</option>
+   						</select>
+   					</div>
+   					<div class="flex-container">
+   						<p>Отделка:</p>
+   						<select class="field-style">
+    						<option selected value="Без отделки">Без отделки</option>
+    						<option value="Черновая">Черновая отделка</option>
+    						<option value="Чистовая">Чистовая отделка</option>
+   						</select>
+   					</div>
+   				</fieldset>
+   				<fieldset class="request-fieldset">
+   					<legend>Контактная информация</legend>
+   					<div class="flex-container">
+   						<p>Имя:</p>
+   						<input type="text" name="name" id="name" class="textarea-style">
+   					</div>
+   					<div class="flex-container">
+   						<p>Телефон:</p>
+   						<input type="text" name="phone" id="phone" class="textarea-style">
+   					</div>
+   					<div class="flex-container">
+   						<p>E-mail:</p>
+   						<input type="text" name="email" id="email" class="textarea-style">
+   					</div>
+   				</fieldset>
+				<input type="submit" value="Отправить" class="submit">
+			</form>
+		</div>
 	</main>
 	<footer>footer</footer>
 </body>
