@@ -16,9 +16,12 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #FFFFFF;
+	box-sizing: border-box;
 	height: 100px;
 	width: 100%;
+	padding: 0 30px;
+	background-color: #FFFFFF;
+
 }
 
 .logo-block {
@@ -27,14 +30,9 @@ body {
 	
 }
 
-.menu-block {
-	justify-content: right;
-	margin-right: 30px;
-}
-
 .logo-70 {
 	height: 70px;
-	padding-left: 15px;
+	/*padding-left: 15px;*/
 	padding-right: 15px;
 }
 
@@ -52,7 +50,7 @@ a {
 	padding-left: 15px;
 }
 
-.banner-block {
+.slider-block {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -67,13 +65,13 @@ a {
 	height: 150px;
 }
 
-.banner-text {
+.slider-text {
 	text-align: center;
     color: #FFFFFF;
     font-weight: bold;
 }
 
-.banner-button {
+.slider-button {
 	display: flex;
     align-items: center;
     justify-content: center;
@@ -89,21 +87,20 @@ a {
 	border-radius: 10px;
 }
 
-.banner-button a {
-	color: #FFFFFF
+.slider-button a {
+	color: #FFFFFF;
 }
 
 #benefits {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: baseline;
 	margin: auto;
-	align-items: center;
+	padding: 70px 0;
 	width: 1000px;
-	height: 300px;
-
 }
 
-.benefits div {
+.benefits-block {
 	width: 30%;
 }
 
@@ -113,7 +110,7 @@ a {
 	justify-content: center;
 	margin: 0;
 	background-color: #f7f7f7;
-	height: 300px;
+	padding: 70px 0;
 	
 }
 
@@ -141,7 +138,7 @@ a {
 	align-items: center;
 	justify-content: center;
 	margin: 0;
-	height: 300px;
+	padding: 70px 0;
 }
 
 #request-section {
@@ -150,7 +147,7 @@ a {
 	justify-content: center;
 	flex-direction: column;
 	background-color: #f7f7f7;
-	height: 650px;
+	padding: 70px 0;
 }
 
 #request-section h3 {
