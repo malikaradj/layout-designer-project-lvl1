@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body class="font-style-general">
+<body>
 	<header class="header-style header-fixed">
 		<div class="logo-block">
 			<img src="images/logo.svg" alt="Logo" class="logo-70">
@@ -24,33 +24,33 @@
 	</header>	
 	<main>
 		<section class="moon-section">
-			<div class="section-content-center">
+			<div class="container-column">
 				<img src="images/logo.svg" alt="Logo" class="logo-150">
 				<div class="moon-section-text">
 					<h1>ЖК «Лунное море»</h1>
 					<p>Место, откуда не хочется улетать</p>
-					<a href="#request-section" class="moon-section-button btn">Забронировать</a>
+					<a href="#request-section" class="btn-white btn-center btn">Забронировать</a>
 				</div>
 			</div>
 		</section>
-		<section id="benefits">
-			<div class="benefits">
-				<div am-benefits-block>
+		<section id="section-flex">
+			<div class="container">
+				<div class="w-30">
 					<h2>Уникальный вид</h2>
 					<p >Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
 				</div>
-				<div am-benefits-block>
+				<div class="w-30">
 					<h2>Инфраструктура</h2>
 					<p >Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
 				</div>
-				<div am-benefits-block>
+				<div class="w-30">
 					<h2>Близость к Москве</h2>
 					<p >При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
 				</div>
 			</div>
 		</section>
-		<section id="about" class="about">
-			<div class="section-content">
+		<section id="about" class="section-flex background-grey">
+			<div class="container">
 				<div class="section-text">
 					<h2>О ЖК «Лунное море»</h2>
 					<p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -59,8 +59,8 @@
 				<img src="images/moon-1.jpg" alt="Section Pic" class="section-pic">	
 			</div>
 		</section>
-		<section id="rest-places" class="rest-places">
-			<div class="section-content">
+		<section id="rest-places" class="section-flex">
+			<div class="container">
 				<img src="images/moon-2.jpg" alt="Section Pic" class="section-pic">
 				<div class="section-text">
 					<h2>Места для отдыха</h2>
@@ -69,13 +69,13 @@
 				</div>
 			</div>
 		</section>
-		<div id="request-section" class="request-section">
-			<div class="section-content-center">
-				<h2>Оставьте заявку сегодня!</h2>
+		<div id="request-section" class="section-flex background-grey">
+			<div class="container-column">
+				<h2 class="font-30 mt-0">Оставьте заявку сегодня!</h2>
 				<form action="/" method="post" >
 					<fieldset class="request-fieldset">
 						<legend>Параметры квартиры</legend>
-						<div class="flex-container">
+						<div class="fieldset-flex">
 							<p>Количество комнат:</p>
 							<select class="field-style">
 	    						<option selected value="1">1</option>
@@ -83,7 +83,7 @@
 	    							<option value="3">3</option>
 	   						</select>
 	   					</div>
-	   					<div class="flex-container">
+	   					<div class="fieldset-flex">
 	   						<p>Отделка:</p>
 	   						<select class="field-style">
 	    						<option selected value="Без отделки">Без отделки</option>
@@ -94,55 +94,56 @@
    					</fieldset>
    					<fieldset class="request-fieldset">
    						<legend>Контактная информация</legend>
-   						<div class="flex-container">
+   						<div class="fieldset-flex">
    							<p>Имя:</p>
    							<input type="text" name="name" id="name" class="textarea-style">
    						</div>
-   						<div class="flex-container">
+   						<div class="fieldset-flex">
    							<p>Телефон:</p>
    						<input type="text" name="phone" id="phone" class="textarea-style">
    						</div>
-   						<div class="flex-container">
+   						<div class="fieldset-flex">
    							<p>E-mail:</p>
    							<input type="text" name="email" id="email" class="textarea-style">
    						</div>
    					</fieldset>
-				<input type="submit" value="Отправить" class="submit-button btn">
+				<input type="submit" value="Отправить" class="btn-green btn">
 			</form>
 			</div>
 		</div>
 	</main>
 	<footer class="footer-flex">
-		<div class="footer-menu">
-			<div class="footer-first-block">
-				<img src="images/logo.svg" alt="Logo" class="logo-50">
-			<h2>Лунное море</h2>
-			
+		<div class="container-footer">
+			<div class="footer-menu">
+				<div class="footer-block">
+					<img src="images/logo.svg" alt="Logo" class="logo-50">
+					<h2 class="font-18 margin-0">Лунное море</h2>
+				</div>
+				<p>&#169; 2032 год</p>
 			</div>
-			<p>&#169; 2032 год</p>
+			<nav class="footer-menu">
+				<h2 class="font-18 margin-0">Проектная документация</h2>
+				<ul>
+					<li>
+						<a href="/">Скачать</a>
+					</li>
+					<li>
+						<a href="/">Посмотреть на сайте</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="footer-menu">
+				<h2 class="font-18 margin-0">О застройщике</h2>
+				<ul>
+					<li>
+						<a href="/">Отзывы</a>
+					</li>
+					<li>
+						<a href="/">Сайт компании</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-		<nav class="footer-menu">
-			<h2>Проектная документация</h2>
-			<ul>
-				<li>
-					<a href="/">Скачать</a>
-				</li>
-				<li>
-					<a href="/">Посмотреть на сайте</a>
-				</li>
-			</ul>
-		</nav>
-		<nav class="footer-menu">
-			<h2>О застройщике</h2>
-			<ul>
-				<li>
-					<a href="/">Отзывы</a>
-				</li>
-				<li>
-					<a href="/">Сайт компании</a>
-				</li>
-			</ul>
-		</nav>
 	</footer>
 </body>
 </html>
