@@ -1,5 +1,5 @@
 :root {
-	--header-height: 100px;
+	--header-height: 60px;
 	--white: #FFFFFF;
 	--black: #000000;
 	--dark: #303846;
@@ -14,6 +14,7 @@ body {
 	margin: 0;
 	font-family: sans-serif;
 	font-size: 16px;
+	line-height: 1.5;
 	color: var(--dark);
 }
 
@@ -30,12 +31,20 @@ body {
 	box-sizing: border-box;
 	height: var(--header-height);
 	width: 100%;
-	padding: 0 30px;
+	padding: 5px 20px;
 	background-color: var(--white);
 }
 
 h1 {
-	font-size: 35px;
+	font-size: 3em;
+	padding-top: 0;
+	padding-bottom: 0; 
+}
+
+h2 {
+	font-size: 1.8em;
+	padding-top: 0;
+	padding-bottom: 0.5em;
 }
 
 .logo-block {
@@ -44,7 +53,7 @@ h1 {
 }
 
 .logo-70 {
-	height: 70px;
+	height: 45px;
 	padding-right: 15px;
 }
 
@@ -99,6 +108,10 @@ a {
     margin-right: auto;
 }
 
+.p-10 {
+	padding: 10px;
+}
+
 .btn-white {
 	background: none; 
 	color: var(--white);
@@ -121,13 +134,8 @@ a {
 	width: 1000px;
 }
 
-.container-column {
-	display: flex;
+.fd-column {
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 70px 0;
-	width: 1000px;
 }
 
 .background-grey {
@@ -222,7 +230,7 @@ a {
 	font-size: 18px;
 }
 
-.margin-0 {
+.m-0 {
 	margin: 0; 
 
 }
